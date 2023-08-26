@@ -1,0 +1,22 @@
+.DashLogoLink{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.DashLogoLink:focus{
+  color: #00067f ;
+}
+.navLink{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.navLink:focus{
+  color: #00067f ;
+}
+
+.homeLink{
+  background-color: lightcoral; 
+  width: 150px;
+  border-radius: 10px;
+}
