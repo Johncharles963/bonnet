@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <Box sx={{textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '40px'}}>
-            <Box sx={{maxWidth: '400px', maxHeight: '400px', overflow: 'hidden', borderRadius: '100%', backgroundColor: 'lightBlue'}}>
+            <Box sx={{maxWidth: '400px', maxHeight: '400px', alignSelf: 'center', overflow: 'hidden', borderRadius: '100%', backgroundColor: 'lightBlue'}}>
                 <img style={{ height: '100%', width: '100%' }} src="https://lh3.googleusercontent.com/pw/AIL4fc-JU_313uQ1UTM4CJHCbBbzhWBe_U5O78w1dKOjpBFgggwwsJ6jM8isfQIIVp6zeslGBcpwr6jeSwgV-_MJesv4OM8NkOcUWwpufmwpzoEhPWeol4b5MoB9z20coq1LCvBUkAlSri62unuXdM4LAnSvEg=w408-h612-s-no?authuser=0" />
             </Box>
             <Box>
