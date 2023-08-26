@@ -21,7 +21,7 @@ const Contact = () => {
                     </Typography>
                 </a>
             </Box>
-            <Box sx={{ backgroundColor: '#FBFAF5', height: '150px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '20px', padding: '15px', borderRadius: '20px'}}>
+            <Box sx={{ backgroundColor: '#FBFAF5', display: 'flex', flexDirection: 'column', padding: '15px', borderRadius: '20px' }}>
                 <a style={{textDecoration: 'none', display: 'flex',  flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', gap: '20px',  padding: '15px'}}  href="mailto:claude.luvier.bonnet@gmail.com"  target='_blank'>
                     <AlternateEmailIcon sx={{color: '#820f49', fontSize: '40px'}} />
                     <Typography sx={{color: '#0035da', fontWeight: 'bold'}} variant="h5" component="p">
