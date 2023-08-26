@@ -20,3 +20,15 @@
   width: 150px;
   border-radius: 10px;
 }
+
+.email{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  color: #0035da; 
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 330px) {
+  .email{
+    font-size: 16px;
+  }
+}

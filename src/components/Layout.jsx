@@ -13,7 +13,7 @@ const Layout = () => {
         <Toolbar>
           <Box sx={{ display: 'flex', gap: { xs: '20px', lg: '50px' }, alignItems: 'center' }}>
             <Box onClick={(e)=>{navigate('/')}} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', cursor: 'pointer'}}>
-              <MonitorHeartIcon />
+              <MonitorHeartIcon sx={{color: '#ef7cb6 '}} />
               <Typography  variant="h6">
                 Claude Bonnet
               </Typography>
