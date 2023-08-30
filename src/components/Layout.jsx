@@ -8,7 +8,7 @@ import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 const Layout = () => {
   const navigate = useNavigate();
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '100px' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '80px', paddingBottom: '20px' }}>
       <AppBar position="fixed">
         <Toolbar>
           <Box sx={{ display: 'flex', gap: { xs: '20px', lg: '50px' }, alignItems: 'center' }}>
